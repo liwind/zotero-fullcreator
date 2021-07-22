@@ -1,4 +1,5 @@
 # zotero-fullcreator
+**Modified view style**： lastname firstname
 
 for zotero 5.0
 add full authors' names to the main column .

@@ -96,10 +96,10 @@ function getCellX(tree, row, col, field) {
     creators.map(function (data) {
         if(chinese_char_pattern.test(data.lastName)){
             //is chinese
-            fullname += data.lastName + data.firstName + ",";
+            fullname += data.lastName + data.firstName + ", ";
         }else{
             //other lang 
-            fullname += data.firstName + " " +data.lastName + ",";
+            fullname += data.lastName + " " + data.firstName + ", ";
         }
         
     });
